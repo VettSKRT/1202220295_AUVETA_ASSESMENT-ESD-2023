@@ -8,9 +8,7 @@ def cek_duplikat(angka):
     
     return False
 
-# Input yang diberikan
 input_data = [20, 1, 3, 2, 4, 6, 8, 5, 7, 9, 11, 13, 15, 10, 12, 14, 16, 18, 20, 17, 19]
 
-# Memanggil fungsi dan menampilkan hasil
 output = cek_duplikat(input_data)
-print(output)  # Output yang diharapkan: True
+print(output) 
